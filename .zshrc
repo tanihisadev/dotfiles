@@ -288,6 +288,9 @@ export ZSH="$HOME/.oh-my-zsh"
 
 eval "$(zoxide init --cmd cd zsh)"
 
+# Ollama VRAM flush script
+source ~/Scripts/ollama_modes.sh
+
 # Custom alises
 source ~/.zsh_aliases
 
