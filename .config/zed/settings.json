@@ -1,0 +1,63 @@
+{
+  "agent_servers": {
+    "gemini": {
+      "type": "registry"
+    }
+  },
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-2.5-flash"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "language_models": {
+    "google": {
+      "api_url": "https://generativelanguage.googleapis.com"
+    },
+    "ollama": {
+      "api_url": "http://localhost:11434",
+      "available_models": [
+        {
+          "name": "qwen2.5-coder:14b",
+          "display_name": "Qwen 2.5 Coder 14B",
+          "max_tokens": 32768,
+          "supports_tools": true
+        },
+        {
+          "name": "qwen2.5-coder:7b",
+          "display_name": "Qwen 2.5 Coder 7B",
+          "max_tokens": 32768,
+          "supports_tools": true
+        }
+      ]
+    }
+  },
+  "edit_predictions": {
+    "ollama": {
+      "max_output_tokens": 150
+    }
+  },
+  "text_rendering_mode": "platform_default",
+  "ui_font_family": ".SystemUIFont",
+  "buffer_font_family": ".SystemUIFont",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "base_keymap": "VSCode",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Catppuccin Macchiato"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": "Nordfox - opaque"
+}
