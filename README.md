@@ -2,13 +2,6 @@
 
 My personal dotfiles for Linux, managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
-## Contents
-
-| File/Directory | Symlinked to |
-|---|---|
-| `.zshrc`, `.zprofile`, etc. | `~/.zshrc`, `~/.zprofile`, etc. |
-| `.config/kitty/` | `~/.config/kitty/` |
-
 ## Prerequisites
 
 - **GNU Stow** — install via your package manager:
