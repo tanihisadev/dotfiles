@@ -291,6 +291,8 @@ eval "$(zoxide init --cmd cd zsh)"
 # Ollama VRAM flush script
 source ~/Scripts/ollama_modes.sh
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # Custom alises
 source ~/.zsh_aliases
 

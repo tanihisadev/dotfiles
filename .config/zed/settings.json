@@ -1,12 +1,16 @@
 {
   "agent_servers": {
-    "gemini": {
+    "opencode": {
+      "type": "registry"
+    },
+    "claude-acp": {
       "type": "registry"
     }
   },
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
+      "enable_thinking": true,
       "provider": "google",
       "model": "gemini-2.5-flash"
     },
